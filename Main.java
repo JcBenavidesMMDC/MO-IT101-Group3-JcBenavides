@@ -50,4 +50,3 @@ public class Main {
     }
     
 }
-//Final output should look like this: https://docs.google.com/spreadsheets/d/146VyoBqjx8DYv6QFxJ_9xRAlAg_c3MV3MXZ21bGOGio/edit#gid=466286522
