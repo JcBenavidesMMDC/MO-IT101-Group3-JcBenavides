@@ -13,7 +13,7 @@ public class PayrollSystem extends EmployeeArray {
 //    double hourlyRate;
     
     public double EmployeeDetails(){
-        System.out.print("Enter employee ID: ");
+        System.out.print("Enter employee ID (1-3): ");
         int inputId = in.nextInt();
         
         System.out.println("Employe Details -----------------------------------------------------------------------------------");
@@ -44,13 +44,13 @@ public class PayrollSystem extends EmployeeArray {
         while (count <= days){
         
         System.out.println("Day " + count);
-        System.out.print("Enter Log in hour (format HH): ");
+        System.out.print("Enter Log in hour (format HH 00-23): ");
         logInHour = in.nextInt();
-        System.out.print("Enter Log in minute (format mm): ");
+        System.out.print("Enter Log in minute (format mm 00-59): ");
         logInMinute = in.nextInt();
-        System.out.print("Enter Log out hour (format HH): ");
+        System.out.print("Enter Log out hour (format HH 00-23): ");
         logOutHour = in.nextInt();
-        System.out.print("Enter Log out minute (format mm): ");
+        System.out.print("Enter Log out minute (format mm 00-59): ");
         logOutMinute = in.nextInt();
 
         int minutesWorkedDuration = ((logOutHour * 60 + logOutMinute) - (logInHour * 60 + logInMinute)) - lunchBreak; //converts work duration in minutes //the problem is here for ln42
